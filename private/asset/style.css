@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+  background-color: #212121;
+  color: lightgray;
+  display: grid;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ed4040;
+  border: 2px solid #282a2d;
+  border-radius: 10px;
+}
+
+::selection {
+  background: #5c5c5c;
+}
+::-moz-selection {
+  background: #5c5c5c;
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-color: #ed4040 transparent;
+  scrollbar-width: thin;
+}
+
+header {
+  text-align: center;
+  background-color: #161716;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+header h3 {
+  font-size: xx-large;
+}
+
+main h4 {
+  text-align: center;
+  font-size: larger;
+  color: #ed4040;
+}
+
+main table {
+  background-color: #2a2a2b;
+  font-size: large;
+  color: lightgray;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.material-icons.back_folder_icon {
+  color: #ed4040;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-right: 8px;
+  user-select: none;
+}
+
+.material-icons.folder {
+  color: #fbcd00;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-right: 8px;
+  user-select: none;
+}
+
+.material-icons.folder_zip {
+  color: #009670;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-right: 8px;
+  user-select: none;
+}
+
+.material-icons.file {
+  color: #d2d3d2;
+  font-size: 28px;
+  vertical-align: bottom;
+  margin-right: 8px;
+  user-select: none;
+}
+
+main table tbody tr:nth-child(odd) {
+  background-color: #3a3a3b;
+}
+
+main table th {
+  background-color: #181819;
+  padding: 5px 10px 5px 10px;
+  pointer-events: none;
+  user-select: none;
+}
+
+main table td {
+  padding: 5px 10px 5px 10px;
+}
+
+main table tr {
+  border-radius: 10px;
+  border: none;
+}
+
+main table tr:hover:not(:first-child) {
+  background-color: #18181985;
+}
+
+main table a,
+main table a:visited {
+  text-decoration: none;
+  color: lightgray;
+  color: #ed4040;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer a,
+footer a:visited {
+  text-decoration: none;
+  color: #ed4040;
+}
