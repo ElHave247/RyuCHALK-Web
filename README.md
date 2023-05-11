@@ -12,4 +12,4 @@ Thanks to Ecchibitionist for be a triggered guy and threaten with just down serv
 
 #Try out
 Demo(Without large files, so no you cant download from here or use like hosting) :
-https://elhave247.github.io/RyuCHALK/
+https://elhave247.github.io/RyuCHALK-Web/
